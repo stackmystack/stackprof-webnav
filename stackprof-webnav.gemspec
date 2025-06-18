@@ -21,13 +21,13 @@ Gem::Specification.new do |spec|
   spec.bindir = 'bin'
   spec.executables << 'stackprof-webnav'
 
-  spec.add_dependency "sinatra", ">= 2.1.0", "< 5.0.0"
-  spec.add_dependency "haml", "~> 5.1.2"
+  spec.add_dependency "sinatra", "~> 4.1.0"
+  spec.add_dependency "haml", "~> 6.0"
   spec.add_dependency "stackprof", ">= 0.2.13"
   spec.add_dependency "better_errors", "~> 1.1.0"
   spec.add_dependency "rackup", ">= 1.0.0", "< 3.0.0"
   spec.add_dependency "ruby-graphviz", "~> 1.2.4"
-  spec.add_dependency "sinatra-contrib", ">= 2.1.0", "< 5.0.0"
+  spec.add_dependency "sinatra-contrib", "~> 4.1.0"
   spec.add_dependency "webrick", "~> 1.7"
   spec.add_development_dependency "bundler", "~> 2.2"
   spec.add_development_dependency "rake", "~> 10.1"

@@ -5,6 +5,9 @@ require_relative 'presenter'
 require_relative 'dump'
 require 'sinatra/reloader' if development?
 require 'ruby-graphviz'
+require 'ostruct'
+
+Haml::Template.options[:escape_html] = false
 
 module StackProf
   module Webnav
